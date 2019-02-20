@@ -23,10 +23,10 @@ a:hover {
 
 /* Section Styles */
 
-a:link {color: blue;}
+/* a:link {color: blue;}
 a:visited {color: purple;}
 a:hover {color: red;}
-a:active {color: yellow;}
+a:active {color: yellow;} */
 
 
 .main-nav {
@@ -60,7 +60,7 @@ a:active {color: yellow;}
   color: white;
 }
 .nav a:hover {
-  color: grey;
+  color: #457B9D;
 }
 
 header {
@@ -78,8 +78,8 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border: 2px solid white;
+  transition: all .75s;
 }
 header .profile-image:hover {
   transform: scale(1.25) rotate(0deg); /* changed scale to 1.25 and degree to 0 */
@@ -111,6 +111,14 @@ header .profile-image:hover {
 }
 
 .card h2 {
+  color: #457B9D;
+}
+
+.card-title {
+  text-align: center;
+}
+
+#link {
   color: #457B9D;
 }
 
@@ -178,6 +186,15 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
+
+
+/* Added new code - made image fit into div container */
+
+.project-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
