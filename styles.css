@@ -55,10 +55,19 @@ a:active {color: yellow;} */
 .nav li {
   padding: 5px 10px 10px 10px;
 }
-.nav a {
-  transition: all .5s;
+
+.nav a,
+.nav a:link,
+.nav a:visited,
+.nav a:active {
   color: white;
 }
+
+/* commented out this code to stop purple color */
+.nav a {
+  /* transition: all .5s; */
+}
+
 .nav a:hover {
   color: #457B9D;
 }
